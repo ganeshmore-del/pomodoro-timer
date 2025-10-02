@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+<title>Pomodoro Timer</title>
+</head>
+<body>
+  <header>
+    <h1>Pomodoro Timer</h1>
+  </header>
+
+  <main>
+    <section id="timer-section">
+      <h2>Timer</h2>
+      <div id="timer">25:00</div>
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </section>
+
+    <section id="settings-section">
+      <h2>Settings</h2>
+      <label for="work-time">Work Time (minutes):</label>
+      <input type="number" id="work-time" value="25">
+
+      <label for="break-time">Break Time (minutes):</label>
+      <input type="number" id="break-time" value="5">
+
+      <button id="save-settings">Save</button>
+    </section>
+
+    <section id="progress-section">
+      <h2>Progress Tracker</h2>
+      <p>Completed Sessions: <span id="sessions">0</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Pomodoro Timer App © 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
